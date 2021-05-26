@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    height: 0 auto;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+body{
+    padding:0;
+    margin: 0;
+}
+
+.header{
+    padding:10px;
+    margin: 10px;
+}
+/*NAVBAR*/
+.nav{
+    max-width: 100vw;
+    background-color: rgb(66, 62, 62);
+    margin: 0px auto;
+    padding:0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-title{
+    color: white;
+    padding:10px;
+    margin:10px;
+}
+
+.nav-links{
+    color: white;
+    padding:10px;
+    margin:10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button{
+    background-color:rgb(83, 27, 238);
+    color: white;
+    border:1px solid rgb(0, 0, 0);   
+    box-shadow: 5px 5px 1px 1px rgba(1, 1, 15, 0.842);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: rgb(10, 99, 233);
+    padding:10px;
+    margin:10px;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*POSTS*/
+
+.account{
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    width:200px;
+    height: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+.post{
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+}
+
+.username h1{
+    text-align: center;
+}
+
+.likes{
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+
+p{
+    margin: 10px;
+    padding: 10px;
+}
+
+.post button{
+    height: 50px;
+    width: 80px;
+    background-color: aliceblue;
+    border: 5px solid black;
+    color: black;
+}
+
+.pfp{
+    position: relative;
+    left:40px;
+    text-align: center;
+    border:10px solid black;
+    width: 90px;;
+    border-radius: 50%;
+    font-size: 60px;
+}
+
+.edit{
+    position: relative;
+    top:0;
+}
